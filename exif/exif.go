@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/seaweedfs/goexif/tiff"
+	"github.com/hanzoai/goexif/tiff"
 )
 
 const (
