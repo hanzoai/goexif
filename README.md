@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="goexif" width="880"></p>
+
 goexif
 ======
 
