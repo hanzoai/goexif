@@ -1,0 +1,9 @@
+# EXIF decoder library — no image.
+# Gate: the module compiles and its suite runs, including the regression corpus
+# under exif/, which is what keeps a parser change from silently mangling a tag.
+test:
+  - name: test
+    run: |
+      set -euo pipefail
+      go build ./...
+      go test ./...
